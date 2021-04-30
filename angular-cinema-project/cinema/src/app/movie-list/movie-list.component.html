@@ -1,16 +1,23 @@
 <section class="table-section">
-    <button id="get-button">Get movie List</button>
-    <table>
-        <thead>
-          <tr>
-            <th>Title</th>
-            <th>Year</th>
-            <th>Category</th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="table-row"></tr>
-        </tbody>
-    </table>
+  <button (click)=getMovies() id="get-button">Get movie List</button>
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Year</th>
+        <th>Category</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-row">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>
+          <button id="delete-button">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </section>
